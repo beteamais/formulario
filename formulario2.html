@@ -18,7 +18,8 @@
 <body>
     <h1>Formulário</h1>
     <form>
-        <fieldset> <legend>Dados pessoais:</legend>
+        <fieldset> 
+        <legend>Dados pessoais:</legend>
         <label for="idnome">Nome:</label>
         <input type="text"  id="idnome">
         <br>
@@ -32,20 +33,27 @@
         <input type="tel" id="idfone">
         <br>   
         </fieldset>
-    
-        <fieldset> <legend>Dados acadêmicos:</legend>
-        <label>Curso:</label>
-            <select>
+        <fieldset>
+            <legend>Dados acadêmicos:</legend>
+            <label id="idcurso">Curso:</label>
+        <select>
                 <option>ADS</option>
-                <option>Ciência de Dados</option>
-                <option>Segurança da Informação</option>
-            </select><br/>
-        <label>Semestre:</label>
-        <input type="radio"/>1º
-        <input type="radio"/>2º
-        <input type="radio"/>3º
-        <input type="radio"/>4º
-        <input type="radio"/>5º
+                <option>GTI</option>
+                <option>CD</option>
+                <option>SI</option>
+        </select>
+        <br>
+        <p>Semestre:</p>
+        <input type="radio" name="semestre" value="1" id="idsem1">
+        <label for="idsem1">1º</label>
+        <input type="radio" name="semestre" value="2" id="idsem2">
+        <label for="idsem2">2º</label>
+        <input type="radio" name="semestre" value="3" id="idsem3">
+        <label for="idsem3">3º</label>
+        <input type="radio" name="semestre" value="4" id="idsem4">
+        <label for="idsem4">4º</label>
+        <input type="radio" name="semestre" value="1" id="idsem5">
+        <label for="idsem5">5º</label>
         </fieldset>
 
         <fieldset>

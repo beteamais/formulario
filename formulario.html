@@ -17,27 +17,32 @@
 </head>
 <body>
     <form>
-            <label>Nome:</label>
-            <input type="text"/><br/>
-            <label>Data de Nascimento:</label>
-            <input type="text"/><br/>
-            <label>Sexo:</label>
-            <input type="radio"/>Masc
-            <input type="radio"/>Fem
-            <input type="radio"/>Prefiro não informar<br/>
-            <label>Endereço:</label><br/>
-            <label>Logradouro: </label>
-            <input type="text"/><br/>
-            <label>Bairro:</label>
-            <input type="text"/><br/>
-            <label>Cidade:</label>
-            <input type="text"/><br/>
-            <label>UF:</label>
-            <select>
+        <label for="idnome">Nome:</label>
+        <input type="text"  id="idnome">
+        <br>
+        <label for="iddt">Data de Nascimento:</label>
+        <input type="text"  id="iddt">
+        <br>
+        <label for="idnome">Sexo:</label>
+        <input type="radio" name="sexo" value="Masc" id="idsexo">
+        <label for="idsexo">Masc</label>
+        <input type="radio" name="sexo" value="Fem" id="idsexo">
+        <label for="idsexo">Fem</label>
+        <input type="radio" name="sexo" value="1" id="idsexo">
+        <label for="idsexo">Prefiro não informar</label>
+        <label>Endereço:</label><br/>
+        <label>Logradouro: </label>
+        <input type="text"/><br/>
+        <label>Bairro:</label>
+        <input type="text"/><br/>
+        <label>Cidade:</label>
+        <input type="text"/><br/>
+        <label>UF:</label>
+        <select>
                 <option>DF</option>
                 <option>RJ</option>
                 <option>SP</option>
-            </select><br/>
+        </select><br/>
             <label>Email:</label>
             <input type="text"/><br/>    
             <input type="submit" value="Limpar">
