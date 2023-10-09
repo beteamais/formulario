@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <style>
+        form{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            width: 25%;
+            margin: 5px 0;
+            border: px solid black;
+            padding: 10px;
+        }
+        </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <fieldset> <legend>Dados pessoais:</legend>
+        <label>Nome:</label>
+        <input type="text"/><br/>
+        <label>Data de Nascimento:</label>
+        <input type="date"/><br/>
+        <label>Email:</label>
+        <input type="text"/><br/> 
+        <label>Telefone:</label>
+        <input type="text"/><br/>   
+        </fieldset>
+    
+        <fieldset> <legend>Dados acadêmicos:</legend>
+        <label>Curso:</label>
+            <select>
+                <option>ADS</option>
+                <option>Ciência de Dados</option>
+                <option>Segurança da Informação</option>
+            </select><br/>
+        <label>Semestre:</label>
+        <input type="radio"/>1º
+        <input type="radio"/>2º
+        <input type="radio"/>3º
+        <input type="radio"/>4º
+        <input type="radio"/>5º
+        </fieldset>
+
+        <fieldset>
+            <label>Trabalha?</label>
+            <input type="checkbox"/><br/>
+            <label>Local de trabalho:</label>
+            <input type="text"/><br/>
+            <label>Descreva sua experiência</label>
+            <textarea rows="5" cols="50">
+
+            </textarea><br/>
+        </fieldset>
+            <input type="submit" value="Gravar">
+            <input type="submit" value="Limpar"> 
+    </form>
+</body>
+</html>
